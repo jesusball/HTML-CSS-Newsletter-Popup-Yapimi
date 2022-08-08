@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("Assets/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 2rem;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    background-color: #2355F2;
+    background-image: url("Assets/Pattern.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+p.title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+.input-container button {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #2355F2;
+}
+
+.warning{
+    color: rgb(172,172,172);
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    margin: 20px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.name-info{
+    color: rgb(104,104,104);
+}
+
+.quote{
+    text-align: center;
+    color: rgb(104,104,104);
+}
